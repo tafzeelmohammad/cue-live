@@ -1,0 +1,370 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,300");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input:focus-visible {
+  outline: none;
+}
+.hjUrVl {
+  outline: none;
+}
+
+.error {
+  position: absolute;
+}
+
+.erstyle_1{
+  font-weight: 700;
+  margin-left: 10px !important;
+  text-align: center !important;
+}
+
+div#__react-alert__ div {
+  margin-top: 35px;
+}
+.mb20 { 
+  margin-bottom: 20px !important;
+}
+.mr5 {
+  margin-right: 5px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.submit-button {
+  min-height: 56px;
+  background-color: #191e23 !important;
+  border: 1px solid #191e23 !important;
+  font-size: 17px !important;
+  border-radius: 30px !important;
+  margin-top: 35px;
+}
+.ml0 {
+  margin-left: 0 !important;
+}
+
+.otpButton{
+    min-width: 180px !important;
+}
+
+.confirmBtn {
+  min-width: 150px !important;
+}
+/* Details Page */
+
+/* --------------- */
+
+
+
+/* Media Queries */
+@media (max-width: 576px){
+  .overlap-group{
+    width: 100%;
+  }
+
+}
+
+
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+  .gfg-div {
+    background-color: #63c971;
+    color: #fff;
+  }
+  .is-sticky {
+    /* top: -220px; */
+    transition: 1200ms;
+    top: 1050px !important;
+    position: absolute !important;
+    transition: top 2s ease-out;
+  }
+  .fjZRtf{
+    position: fixed;
+    z-index: 99;
+    /* bottom: 440px;
+    top: 200px; */
+  }
+}
+ 
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1025px) {
+  .mobile-w-100{
+    width: 100% !important;
+  }
+  .fjZRtf{
+    margin-left: 10px !important;
+  }
+  .Frame38824{
+    display: block !important;
+  }
+  .fyCVMM{
+    width: 719px !important;
+  }
+  .kRJvOs{
+    width: 719px !important;
+  }
+  .BannerImage1{
+    margin: auto;
+  }.BuyPass5000{
+    text-align: center !important;
+  }
+  .Title{
+    margin-left: 126px;
+  }
+  .your-bookings-will-b{
+    width: 95%;
+    margin: auto;
+  }
+  .CardTitle{
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+  .TimeTag1{
+    width: 100% !important;
+    margin-top: 15px;
+  }
+  .OverlapGroup4{
+    margin-top: 110px !important;
+  }
+  .text-align {
+    text-align: center;
+  }
+
+  .Group38186 {
+    /* display: none !important; */
+    margin-left: 400px !important;
+  }
+  .Support { display: none;}
+  .Menu1{
+    min-width: 1297px !important;
+  }
+  .overlap-group{
+    width: 100% !important;
+    margin-top: 15px !important;
+  }
+  .card-title {
+    align-self: center !important;
+  }
+  .Creators1 {
+    margin-top: 100px;
+  }
+  .terms {
+    width: 719px !important;
+  }
+  .footerMneu {
+    display: block !important;
+  }
+  .footerMenu {
+    display: table;
+  }
+  .footerMneu div {
+    margin: 0 auto;
+}
+.FooterText p {
+  max-width: 850px;
+}
+.footerMenu {
+  display: table !important;
+}
+
+.w1-a3-enter-otp {
+  height: 200vh;
+}
+.img-responsive {
+  display: none;
+}
+
+.text {
+  position: unset !important;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  width: 100% !important;
+}
+.download-cue-app-ho{
+  width: 100% !important;
+}
+.image-1 {
+  top: 295px !important;
+  left: 165px !important;
+}
+
+.googleplaya1b4ed6211c9-1-2 {
+  position: static !important;
+  margin-left: 160px;
+  margin-right: 15px;
+}
+.appstore6f955d329ad7-1-2{
+  position: static !important;
+}
+.overlap-group3 {
+  height: 1000px !important;
+}
+
+
+}
+ 
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+and (orientation: portrait) {
+  .text-align {
+    text-align: center;
+  }
+}
+ 
+/* For Mobile Landscape View */
+@media screen and (max-device-width: 640px)
+and (orientation: landscape) {
+  
+}
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen and (max-device-width: 640px) {
+ 
+}
+ 
+/* For iPhone 4 Portrait or Landscape View */
+@media screen and (min-device-width: 320px)
+and (max-device-width: 768px) {
+  .fjZRtf{
+    margin-left: 10px !important;
+  }
+  .Group38186 {
+    /* display: none !important; */
+    margin-left: 400px !important;
+  }
+  .fyCVMM{
+    width: 719px !important;
+  }
+  .kRJvOs{
+    width: 719px !important;
+  }
+  .mobile-w-100{
+    width: 100% !important;
+  }
+  .Frame38824{
+    display: block !important;
+  }
+  .BannerImage1{
+    margin: auto;
+  }.BuyPass5000{
+    text-align: center !important;
+  }
+  .Title{
+    margin-left: 126px;
+  }
+  .CardTitle{
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+  .TimeTag1{
+    width: 100% !important;
+    margin-top: 15px;
+  }
+  .OverlapGroup4{
+    margin-top: 110px !important;
+  }
+  .Support { display: none;}
+  .Menu1{
+    min-width: 1297px !important;
+  }
+  .overlap-group{
+    width: 100% !important;
+    margin-top: 15px !important;
+  }
+  .card-title {
+    align-self: center !important;
+  }
+  .Creators1 {
+    margin-top: 100px;
+  }
+  .terms {
+    width: 719px !important;
+  }
+  .footerMneu {
+    display: block !important;
+  }
+  .footerMenu {
+    display: table;
+  }
+  .footerMneu div {
+    margin: 0 auto;
+}
+.FooterText p {
+  max-width: 850px;
+}
+.footerMenu {
+  display: table !important;
+}
+
+.w1-a3-enter-otp {
+  height: 200vh !important;
+}
+
+.img-responsive {
+    display: none;
+  }
+  .text {
+    position: unset !important;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+  .image-1 {
+    top: 295px !important;
+    left: 165px !important;
+  }
+  .overlap-group3 {
+    height: 1000px !important;
+  }
+  .googleplaya1b4ed6211c9-1-2 {
+    position: static !important;
+    margin-left: 160px;
+    margin-right: 15px;
+  }
+  .appstore6f955d329ad7-1-2{
+    position: unset !important;
+  }
+}
+ 
+/* For iPhone 5 Portrait or Landscape View */
+@media (device-height: 568px) and (device-width: 320px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .text-align {
+    text-align: center;
+  }
+}
+ 
+/* For iPhone 6 and 6 plus Portrait or Landscape View */
+@media (min-device-height: 667px) and (min-device-width: 375px)
+and (-webkit-min-device-pixel-ratio: 3) {
+
+  .text-align {
+    text-align: center;
+  }
+}

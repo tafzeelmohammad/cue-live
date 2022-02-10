@@ -1,0 +1,379 @@
+.w1-a3-enter-otp {
+  align-items: center;
+  background-color: var(--mirage);
+  display: flex;
+  flex-direction: column;
+  height: 910px;
+  overflow: hidden;
+  position: relative;
+  /* width: 1680px; */
+  width: 100%;
+}
+
+.invalid-feedback {
+  width: initial !important;
+}
+
+.detailsForm .Group {
+  margin-top: 20px !important;
+}
+
+
+.detailsForm .invalid-feedback {
+  margin: 0 !important;
+}
+
+.inputfield {
+  color: var(--black-2);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl2);
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0;
+  width: 200px;
+  height: 46px;
+  margin-left: 16px;
+  background-color: transparent;
+  letter-spacing: 4.92px;
+  border: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.sidebar-nav {
+  position: absolute;
+  left: 0;
+  width: 30px;
+}
+
+.inputfield::placeholder {
+  color: #0000001f;
+  font-size: 20px;
+}
+
+.CueBooking1 {
+  height: 96px;
+  /* position: relative; */
+  /* margin-left: 0.43px; */
+  /* display: flex; */
+  /* padding: 0 53px; */
+  align-items: center;
+  /* min-width: 1680px; */
+  min-width: 100%;
+  background-color: #0c0c0f;
+  padding-top: 8px;
+}
+
+.Frame38825 {
+  width: 913px;
+  display: flex;
+  margin-left: 60px;
+}
+
+.FormIcons{
+  margin-top: 29.5px;
+  width: 21px;
+  height: 21px;
+  margin-left: 0;
+}
+
+.Frame38824 {
+  height: 80px;
+  position: relative;
+  margin-left: 25px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 852.234619140625px;
+}
+
+.CardTitle {
+  width: 687px;
+  position: relative;
+  margin-left: 24px;
+  display: flex;
+  flex-direction: column;
+  padding: 13px 0;
+  align-items: flex-start;
+  min-height: 80px;
+}
+
+.BannerImage1{
+  width: 141px;
+  height: 80px;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.TimeTag1 {
+  width: 189px;
+  height: 21px;
+  display: flex;
+  border-radius: 20.48px;
+}
+
+.OverlapGroup4 {
+  width: 710px;
+  margin-top: 40px;
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  padding: 55px 46px;
+  align-items: flex-start;
+  background-size: 100% 100%;
+}
+
+.OverlapGroup5 {
+  width: 607px;
+  height: 321px;
+  position: relative;
+  margin-top: 15px;
+}
+
+.OverlapGroup6
+{
+  width: 607px;
+  height: 450px;
+  position: relative;
+  margin-top: 15px;
+}
+
+
+.InputBox {
+  position: absolute;
+  width: 607px;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.GroupOtp {
+  margin-top: 35px;
+  display: flex;
+}
+
+.GroupWrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.resend-text {
+  top: 4px;
+  left: 4px;
+  text-align: center;
+  letter-spacing: 0;
+  margin-top: 10px;
+  color: var(--granite-gray);
+  font-family: var(--font-family-poppins);
+  font-size: 14px;
+}
+
+.Button {
+  width: 167px;
+  height: 56px;
+  margin-top: 56px;
+  cursor: pointer;
+}
+
+.FormIcons{
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  top: 5px;
+  left: 0;
+}
+
+.HeaderText1 {
+  width: 607px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 97px;
+}
+
+.OtpInputBox {
+  margin-left: 8px;
+  display: flex;
+  align-items: flex-start;
+  min-width: 48px;
+}
+
+.OverlapGroup{
+  position: relative;
+  border-radius: 8px;
+}
+
+.overlap-group3 {
+  width: 48px;
+  height: 56px;
+  position: relative;
+  border-radius: 8px;
+}
+
+.Title{
+  color: var(--white);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl2);
+  font-weight: 400;
+  font-style: normal;
+  min-height: 25px;
+  margin-top: 8px;
+  letter-spacing: 1.08px;
+  line-height: 23.9px;
+  white-space: nowrap;
+}
+
+.Title1 {
+  color: var(--eerie-black);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl2);
+  font-weight: 400;
+  font-style: normal;
+  width: 397px;
+  min-height: 35px;
+  text-align: center;
+  letter-spacing: 1.44px;
+}
+
+.FillText{
+  color: var(--granite-gray);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl2);
+  font-weight: 400;
+  font-style: normal;
+  width: 607px;
+  min-height: 54px;
+  margin-top: 8px;
+  text-align: center;
+  letter-spacing: 1.08px;
+  line-height: 28.6px;
+  margin-bottom: 10px;
+}
+
+.Rectangle446{
+  border: 1px solid var(--black-2);
+  position: absolute;
+  width: 48px;
+  height: 56px;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+}
+
+.ip {
+  border: 1px solid#00000047 !important;
+  width: 48px !important;
+  height: 56px !important;
+  top: 0 !important;
+  left: 0 !important;
+  border-radius: 8px !important;
+  text-align: center;
+}
+
+
+.Text4{
+  color: var(--pink-swan);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  font-style: normal;
+  position: absolute;
+  width: 607px;
+  top: 420px;
+  left: 5px;
+  text-align: center;
+  letter-spacing: 1.08px;
+  line-height: 28.6px;
+}
+
+.Button1 {
+  position: absolute;
+  width: 217px;
+  height: 56px;
+  top: 270px;
+  left: 200px;
+  cursor: pointer;
+}
+
+.Group{
+    border: 1px solid #0000003b;
+    width: 340px;
+    height: 56px;
+    top: 155px;
+    display: flex;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+.Number {
+  margin-top: 5px;
+  width: 218px;
+  height: 46.0001220703125px;
+  margin-left: 40px;
+  display: flex;
+}
+
+.Text1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 44.95892333984375px;
+  height: 45.71419906616211px;
+  font-family: var(--font-family-poppins);
+  font-weight: 400;
+  color: var(--granite-gray);
+  font-size: var(--font-size-xxxl2);
+  letter-spacing: 1.44px;
+}
+
+.CardButtons {
+  /* margin-left: 457px; */
+  margin-left: 0px;
+  /* display: flex; */
+  padding: 9px 15px;
+  align-items: flex-end;
+  /* min-width: 204px; */
+  min-width: 100%;
+}
+
+.topHedear{
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+
+.BuyPass5000{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--peach-cream);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xl);
+  font-weight: 400;
+  font-style: normal;
+  /* width: 174px; */
+  width:100%;
+  height: 16px;
+  text-align: right;
+  letter-spacing: 1.08px;
+  padding-top: 26px;
+}
+
+.Address{
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: var(--white);
+font-family: var(--font-family-poppins);
+font-size: var(--font-size-m2);
+font-weight: 400;
+font-style: normal;
+flex: 1;
+width: 173px;
+text-align: center;
+letter-spacing: 0.84px;
+}
+
